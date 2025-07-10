@@ -44,3 +44,9 @@ Desktop.ini
 .DS_Store
 
 # Local environment variables
+.env
+.env.*
+
+# Ignore data and plot folders
+_data/
+_plots/
