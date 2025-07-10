@@ -1,6 +1,6 @@
 # evobandits-demo
 
-Application example for [EvoBandits](https://github.com/EvoBandits/EvoBandits), demonstrating the use of the Genetic Multi-Armend Bandits algorithm (GMAB) for tuning a genetic algorithm.
+Application example for [EvoBandits](https://github.com/EvoBandits/EvoBandits), demonstrating the use of the Genetic Multi-Armed Bandits algorithm (GMAB) for tuning a genetic algorithm.
 
 ## Installation
 
