@@ -47,6 +47,6 @@ Desktop.ini
 .env
 .env.*
 
-# Ignore data and plot folders
-_data/
-_plots/
+# Ignore data and plots
+*.json
+*.pdf
