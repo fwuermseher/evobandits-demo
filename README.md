@@ -1,22 +1,22 @@
 # evobandits-demo
 
-Application example for [EvoBandits](https://github.com/EvoBandits/EvoBandits), demonstrating the use of the Genetic Multi-Armed Bandits algorithm (GMAB) for tuning a genetic algorithm.
+Demo for [EvoBandits](https://github.com/EvoBandits/EvoBandits), showcasing the Genetic Multi-Armed Bandits (GMAB) algorithm for tuning genetic algorithms.
 
 ## Installation (Windows)
 
-The following steps are required to run the scripts, especially the optimizer comparison.
+Follow these steps to run the optimizer comparison:
 
-#### 1. Set up R (dependency for the IRACE package):
+### 1. Install R (for IRACE)
 
-Install [R Version 4.4.1](https://cran.r-project.org/bin/windows/base/old/4.4.1/), the compatible 
-[RTools44](https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html), and set up the respective environment variables such as 'R_HOME'.
+- [R 4.4.1](https://cran.r-project.org/bin/windows/base/old/4.4.1/)
+- [RTools44](https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html)
+- Set environment variables (e.g., `R_HOME`)
 
-#### 2. Set up Python:
+### 2. Install Python
 
-Install [Python 3.12](https://www.python.org/downloads/release/python-3120/), setting the environment variable on `PATH`.
+- [Python 3.12](https://www.python.org/downloads/release/python-3120/)
+- Add Python to `PATH`
 
-#### 3. Create a virtual environment
- 
 ```sh
 py -3.12 -m venv .venv
 .venv\Scripts\activate
@@ -25,15 +25,8 @@ python -m pip install --upgrade pip
 
 #### 4. Install dependencies
 
-Install several packages from PyPI using:
-
 ```sh
 pip install -r requirements.txt
-```
-
-Finally, install the Python interface for irace from [iracepy-tiny](https://github.com/Saethox/iracepy-tiny).
-
-```sh
 pip install git+https://github.com/Saethox/iracepy-tiny#egg=irace
 ```
 
