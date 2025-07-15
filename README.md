@@ -2,7 +2,7 @@
 
 Demo for [EvoBandits](https://github.com/EvoBandits/EvoBandits), showcasing the Genetic Multi-Armed Bandits (GMAB) algorithm for tuning genetic algorithms.
 
-## Installation (Windows)
+## Set up for Windows
 
 Follow these steps to run the optimizer comparison:
 
@@ -23,13 +23,13 @@ py -3.12 -m venv .venv
 python -m pip install --upgrade pip
 ```
 
-#### 4. Install dependencies
+### 3. Install dependencies
 
 ```sh
 pip install -r requirements.txt
 pip install git+https://github.com/Saethox/iracepy-tiny#egg=irace
 ```
 
-### Installation (macOS / unix-based systems)
+### Setup for macOS / unix-based systems
 
 Functionality on macOS and unix-based systems is currently untested and may require additional configuration.
