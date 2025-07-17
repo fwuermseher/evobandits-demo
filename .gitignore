@@ -48,5 +48,4 @@ Desktop.ini
 .env.*
 
 # Ignore data and plots
-*.json
 *.pdf
