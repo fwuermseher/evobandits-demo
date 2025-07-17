@@ -127,7 +127,7 @@ def genetic_algorithm(
 
     # Evolution Loop
     elite_size = int(pop_size * elite_split)
-    tournament_size = int(pop_size * tournament_split)
+    tournament_size = max(1, int(pop_size * tournament_split))
     for i in range(generations):
 
         # Ranking based on individual fitness
