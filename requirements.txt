@@ -1,5 +1,5 @@
 ipykernel
-evobandits~=0.0.6
+evobandits~=0.0.7
 matplotlib~=3.10.3
 numba~=0.61.2
 numpy~=2.2.6
