@@ -3,6 +3,7 @@ evobandits~=0.0.7
 matplotlib~=3.10.3
 numba~=0.61.2
 numpy~=2.2.6
+optuna~=4.4.0
 pingouin~=0.5.5
 scipy~=1.15.3
 tqdm
