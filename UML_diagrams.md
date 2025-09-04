@@ -20,16 +20,19 @@ object "Objective\nFunction" as objective
 package EvoBandits {
   component "<<module>>\nstudy" as study
   component "<<module>>\nparams" as params
-  component "<<module>>\nevobandits-core" as core
+  
+  package "Rust-based Core" as core {
+    class "GMAB" as gmab
+  }
 }
 
 config ..> study: "provides\nsettings to"
-objective ..> study: "evaluates"
+objective <.. study: "evaluates"
 params <.. solutionspace: defines
 study ..> results: "produces and\naggregates"
-core <.. algorithm: configures
+gmab <.. algorithm: configures
 study --> params: "sets\nconstraints\nwith"
-study --> core: "executes\nalgorithm"
+study --> gmab: "executes\nalgorithm"
 @enduml
 ```
 
