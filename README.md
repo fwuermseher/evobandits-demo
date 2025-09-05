@@ -34,7 +34,7 @@ python -m pip install --upgrade pip
 
 ### 4. Install Python dependencies
 
-The following command installs the [dependencies](requirements.txt) for evobandits-demo from PyPI. Python bindings for IRACE are installed from GitHub.
+The following command installs [dependencies](requirements.txt) for evobandits-demo from PyPI. Python bindings for IRACE are installed from GitHub.
 
 ```sh
 pip install -r requirements.txt
