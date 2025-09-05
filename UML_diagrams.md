@@ -1,4 +1,4 @@
-# UML diagrams for the EvoBandits package+
+# UML diagrams for the EvoBandits package
 
 Created using [PlantUML Online](https://plantuml.online/uml/2orEBLBGjLDmB2Z8oKnEBCdCprEmKYXABInDBIxXIamkoInBB4b5bkP2LgeBr1eACWAafxWWFwyubIib5Qis0000).
 
